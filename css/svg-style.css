@@ -1,0 +1,78 @@
+/*---------------------------------------------*/
+/* SVG CSS */
+/*---------------------------------------------*/
+text {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* Watch */
+.center-mark {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 4;
+}
+
+.minute-marks {
+  fill: #000000;
+}
+
+.hours-hand {
+  fill: #000000;
+}
+
+.minutes-hand {
+  fill: #666666;
+}
+
+/* Panel Angle Info*/
+.result-panel {
+  fill: #444444;
+  font-size: 2em;
+  cursor: help;
+}
+
+.result-value {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.inner-angle-value, .outer-angle-value {
+  fill: #444444;
+  transition-property: fill;
+  transition-duration: 0.3s;
+}
+
+.icon-circle, .icon-pie {
+  fill: #E4E4E4;
+  transition-property: fill;
+  transition-duration: 0.3s;
+}
+
+.icon-pie {
+  stroke: #444444;
+  stroke-width: 2;
+}
+
+.icon-sector {
+  fill: none;
+  stroke: #444444;
+  stroke-width: 6;
+}
+
+.input-time {
+  text-align: left;
+}
+
+.inner-sector, .outer-sector {
+  fill: #ffffff;
+  transition-property: fill;
+  transition-duration: 0.3s;
+}
+
+.inner-sector:hover {
+  fill: #ffbbbb;
+}
+
+.outer-sector:hover {
+  fill: #bbffff;
+}
